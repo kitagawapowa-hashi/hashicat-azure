@@ -1,5 +1,5 @@
 module "network" {
   source  = "app.terraform.io/KitagawaCorp/network/azurerm"
-  version = "5.1.0"
+  version = "3.5.0"
   resource_group_name = azurerm_resource_group.myresourcegroup.name
 }
